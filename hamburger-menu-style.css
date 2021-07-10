@@ -166,7 +166,7 @@ body{
 
 
 .icon-waifu {
-    background: url('/assets/waifu.jpg');
+    background: url('assets/waifu.jpg');
     background-size: contain;
     height: 2rem;
     width: 3rem;
@@ -179,7 +179,7 @@ body{
 }
 
 .icon-neko {
-    background: url('/assets/neko.jpg');
+    background: url('assets/neko.jpg');
     background-size: cover;
     height: 2rem;
     width: 3rem;
@@ -192,7 +192,7 @@ body{
 }
 
 .icon-cry {
-    background: url('/assets/cry1.gif');
+    background: url('assets/cry1.gif');
     background-size: cover;
     height: 2rem;
     width: 3rem;
@@ -206,7 +206,7 @@ body{
 
 
 .icon-hug {
-    background: url('/assets/hug1.gif');
+    background: url('assets/hug1.gif');
     background-size: cover;
     height: 2rem;
     width: 3rem;
@@ -219,7 +219,7 @@ body{
 }
 
 .icon-bonk {
-    background: url('/assets/bonk.gif');
+    background: url('assets/bonk.gif');
     background-size: cover;
     height: 2rem;
     width: 3rem;
