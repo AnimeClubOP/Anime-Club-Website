@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); 
+
+body{
+    font-family: 'Lato',sans-serif;
+}
+
+.loader {
+  background: blueviolet;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.content2{
+    display: flex;
+}
+
+
+.content2 h1{
+    text-align: center;
+    letter-spacing: 4px;
+    line-height: 3rem;
+    padding-top: 4px;
+    color: white;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px green, 0 0 20px greenyellow, 0 0 30px blue, 0 0 40px blue, 0 0 50px blue, 0 0 60px blue, 0 0 70px blue;
+  }
+  to {
+    text-shadow: 0 0 20px greenyellow, 0 0 30px rgb(185, 152, 216), 0 0 40px blueviolet, 0 0 50px blueviolet, 0 0 60px blueviolet, 0 0 70px blueviolet, 0 0 80px blueviolet;
+  }
+}
+
+.loader.hidden {
+  animation: fadeOut 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width:600px) {
+    .content2{
+        flex-direction: column;
+        justify-content: center;
+        max-height: 80vh;
+    }
+    .content2 > img{
+        width:20rem;
+    }
+}
